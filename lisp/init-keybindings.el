@@ -34,4 +34,13 @@
 
 (global-set-key (kbd "C-c p f") 'counsel-git)
 
+;; 设置代码缩进
+(global-set-key (kbd "C-M-\\") 'indent-region-or-buffer)
+
+
+
+
+
+
+
 (provide 'init-keybindings)
