@@ -2,6 +2,7 @@
 
 
 ;; enable this if you want `swiper' to use it
+
 ;; (setq search-default-mode #'char-fold-to-regexp)
 (global-set-key "\C-s" 'swiper)
 (global-set-key (kbd "C-c C-r") 'ivy-resume)
@@ -39,6 +40,27 @@
 
 
 
+
+(global-set-key (kbd "s-/") 'hippie-expand)
+
+;; C-x d : to open dired-mode
+;; dired-mode for config 
+;; + : to create directory
+;; C-x C-f : to create file
+;; g : to refresh dired buffer
+;; C : to copy
+;; R : rename file
+;; d : delete file
+;; u : undo
+;; x : to do all
+
+;; 主动加载 Dired Mode
+;; (require 'dired)
+;; (defined-key dired-mode-map (kbd "RET") 'dired-find-alternate-file)
+
+;; 延迟加载
+(with-eval-after-load 'dired
+    (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
 
 
 
