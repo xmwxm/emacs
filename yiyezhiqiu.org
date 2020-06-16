@@ -1,11 +1,22 @@
+** org-code-mode
+*** config for init.el
+#+BEGIN_SRC init.el
+(require 'org-install)
+(require 'ob-tangle)
+(org-babel-load-file (expand-file-name "yiyezhiqiu.org" user-emacs-directory))
+#+END_SRC
+
+
+
 ** 初始化所有的packages
+*** config for auto-init.el-config
 #+BEGIN_SRC emacs-lisp
 (package-initialize)
 #+END_SRC
 
 
 ** 配置loadpath
-
+*** config for auto-init.el-config
 #+BEGIN_SRC emacs-lisp
 (add-to-list 'load-path "~/.emacs.d/lisp")
 
