@@ -1,0 +1,13 @@
+* 工作安排
+
+** TODO [#B] 学习emacs的第六天
+
+** TODO [#B] 
+
+** TODO [#B] remember to C-c a to open agenda
+
+** TODO [#B] to study org
+   SCHEDULED: <2020-06-24 Wed 23:59>
+
+** TODO [#B] 
+

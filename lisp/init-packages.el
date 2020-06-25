@@ -42,6 +42,8 @@
 		      iedit
 		      ;; emacs-htmlize
 		      htmlize
+		      ;; Org-pomodoro
+		      org-pomodoro
 		      ) "Default packages")
 
 (setq package-selected-packages my/packages)
@@ -180,6 +182,6 @@
 
 (require 'nodejs-repl)
 
-
+(require 'org-pomodoro)
 
 (provide 'init-packages)
